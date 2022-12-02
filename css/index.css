@@ -1,0 +1,149 @@
+body{
+    background-color: gray;    
+    margin: 1rem 10rem 0rem 10rem;
+}
+/* Aqui inicia el menu */
+.header{
+    background-color: black;
+    padding: 1rem 0.1rem 0.3rem 0.1rem;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ord{
+    height: 2.8rem;
+}
+
+.link-img{
+    height: 3rem;
+    width: 3rem;
+}
+
+.link{
+    margin-top: -1rem;
+    margin: 0rem 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.link:hover{
+    background-color: gray;
+    color: #ffffff;
+}
+
+/* Aqui van los resultados*/
+
+.resultados{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: gray;
+    height: 1.5rem;
+    text-align: center;
+    padding: 0.5rem 1rem 1rem;
+}
+
+.text{
+    text-align: center;
+    top: -1 rem;
+    color: #ffffff;
+}
+
+/*Aqui inicia el main*/
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main_g{
+    margin: 2rem 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.us{
+    background-color: black;
+    color: white;
+    border-radius: 3rem;
+    width: 15rem;
+    margin-right: 5rem;
+    height: 22rem;
+}
+
+.section{
+    margin: 1rem;
+}
+
+.title_text{
+    color: red;
+    text-align: center;
+}
+
+.title_text_s{
+    color: white;
+}
+
+.img{
+    border-radius: 1rem;
+    width: 15rem;
+    margin-right: 5rem;
+}
+
+.img-test{
+    height: 22rem;
+    width: 15rem;
+    border-radius: 3rem;
+}
+
+.app_redes{
+    margin: 0;
+    height: 22rem;
+}
+
+.app{
+    background-color: black;
+    border-radius: 3rem;
+    color: #ffffff;
+    width: 15rem;
+    margin-bottom: 0.5rem;
+    height: 11rem;
+}
+
+.apps{
+    padding: 1rem 0 0 0;
+    margin: 0rem 2rem;
+}
+
+.appss{
+    height: 1rem;
+    width: 1rem;
+    margin: 3rem 2rem;
+}
+
+.icon{
+    margin-top: 1rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 4rem;
+}
+
+.red{
+    height: 1rem;
+    margin: 7rem 0.85rem;
+}
+
+.icon_s{
+    margin-top: 2rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 4rem;
+}

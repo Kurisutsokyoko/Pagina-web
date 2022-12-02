@@ -1,0 +1,74 @@
+body{
+    background-color: gray;    
+    margin: 1rem 10rem 0rem 10rem;
+}
+/* Aqui inicia el menu */
+.header{
+    background-color: black;
+    padding: 1rem 0.1rem 0.3rem 0.1rem;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ord{
+    height: 2.8rem;
+}
+
+.link-img{
+    height: 3rem;
+    width: 3rem;
+}
+
+.link-img:hover{
+    background-color: black;
+}
+
+.link{
+    margin-top: -1rem;
+    margin: 0rem 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.link:hover{
+    background-color: gray;
+    color: #ffffff;
+}
+
+/* Aqui va el form*/
+
+.main{
+    margin: 2rem 5rem 0 17rem;
+}
+
+.form{
+    height: 15rem;
+    width: 30rem;
+    background-color: black;
+}
+
+.forms{
+    padding-top: 3rem;
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    margin-top: 1rem;
+}
+
+.button{
+    margin-top: 1rem;
+}
+
+.linkss{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,81 @@
+body{
+    background-color: gray;    
+    margin: 1rem 10rem 0rem 10rem;
+}
+/* Aqui inicia el menu */
+.header{
+    background-color: black;
+    padding: 1rem 0.1rem 0.3rem 0.1rem;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ord{
+    height: 2.8rem;
+}
+
+.link-img{
+    height: 3rem;
+    width: 3rem;
+}
+
+.link{
+    margin-top: -1rem;
+    margin: 0rem 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.link:hover{
+    background-color: gray;
+    color: #ffffff;
+}
+
+/* Aqui van los resultados*/
+
+.resultados{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: gray;
+    height: 1.5rem;
+    text-align: center;
+    padding: 0.5rem 1rem 1rem;
+}
+
+.text{
+    text-align: center;
+    top: -1 rem;
+    color: #ffffff;
+}
+
+.main{
+    margin: 3rem 5rem 0 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.champions{
+    background-color: black;
+    color: #ffffff;
+    width: 15rem;
+    border-radius: 3rem;
+    height: 18rem;
+}
+
+.title{
+    text-align: center;
+    color: red;
+}
+
+.res{
+    margin-left: 2rem;
+    text-align: justify;
+}
